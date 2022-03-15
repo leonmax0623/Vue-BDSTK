@@ -1,0 +1,15 @@
+{
+    "tickets": {
+        "status": {
+            "open": 33,
+            "inwork": 34,
+            "idle": 35,
+            "line2": 36,
+            "line3": 37,
+            "closed": 999999
+        }
+    },
+    "department": {
+        "line3": 2073
+    }
+}

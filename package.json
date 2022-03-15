@@ -1,0 +1,47 @@
+{
+  "name": "bdstk",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "serve:real": "vue-cli-service serve --mode real",
+    "build": "vue-cli-service build",
+    "build:server": "vue-cli-service build --mode server"
+  },
+  "dependencies": {
+    "@aspnet/signalr": "^1.1.4",
+    "@tozd/vue-router-referer": "^0.1.0",
+    "ant-design-vue": "^1.7.2",
+    "axios": "^0.19.0",
+    "core-js": "^3.3.2",
+    "date-fns": "^2.19.0",
+    "dayjs": "^1.8.17",
+    "file-saver": "^2.0.2",
+    "jquery": "^3.4.1",
+    "jsoneditor": "^9.5.3",
+    "lodash": "^4.17.15",
+    "mime": "^2.4.4",
+    "numeral": "^2.0.6",
+    "print-js": "^1.0.63",
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
+    "read-excel-file": "^4.0.5",
+    "v-viewer": "^1.5.1",
+    "vue": "^2.6.10",
+    "vue-bus": "^1.2.1",
+    "vue-meta": "^2.4.0",
+    "vue-router": "^3.1.3",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@mdi/font": "^4.5.95",
+    "@vue/cli-plugin-babel": "^4.0.0",
+    "@vue/cli-plugin-router": "^4.0.0",
+    "@vue/cli-plugin-vuex": "^4.0.0",
+    "@vue/cli-service": "^4.0.0",
+    "node-sass": "^4.12.0",
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

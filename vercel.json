@@ -1,0 +1,16 @@
+{
+	"rewrites": [
+		{
+			"source": "/api/:path*",
+			"destination": "http://91.237.189.1:6060/api/:path*"
+		},
+		{
+			"source": "/api/:path*/",
+			"destination": "http://91.237.189.1:6060/api/:path*/"
+		},
+		{
+			"source": "/token",
+			"destination": "http://91.237.189.1:6060/token"
+		}
+	]
+}
